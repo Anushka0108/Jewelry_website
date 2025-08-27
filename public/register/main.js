@@ -3,7 +3,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.0.0/firebase
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBy0XeAvi0JqsCytYc5rpE9XYExT7UggEQ",
+    apiKey: "Apikey",
     authDomain: "dreamstone-3c8bc.firebaseapp.com",
     projectId: "dreamstone-3c8bc",
     storageBucket: "dreamstone-3c8bc.appspot.com",
