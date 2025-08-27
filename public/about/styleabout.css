@@ -1,0 +1,101 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+.about-hero {
+  background: url('../backdrop.png'),no-repeat;
+  padding: 60px 20px;
+  text-align: center;
+  color: #f7f3f5;
+}
+
+.about-hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-values {
+  padding: 30px 20px;
+  background: #f7f3f5;
+  text-align: center;
+}
+
+.about-values h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.about-values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-values li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+ footer {
+      background: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+    footer p {
+      margin-bottom: 1rem;
+    }
+
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+    }

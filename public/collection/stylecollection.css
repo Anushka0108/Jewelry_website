@@ -1,0 +1,122 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ body {
+     background-color: #fff;
+     color: #333;
+ }
+
+ header {
+     background: #000;
+     color: #fff;
+     padding: 1rem 2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ header h1 {
+     font-family: 'Playfair Display', serif;
+     font-size: 2rem;
+     letter-spacing: 1px;
+ }
+
+ nav a {
+     color: #fff;
+     margin: 0 1rem;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .collection-hero {
+     background: url('../backdrop.png'), no-repeat;
+     padding: 50px 20px;
+     text-align: center;
+     color: #fff;
+ }
+
+ .collection-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 30px;
+     padding: 40px 20px;
+     background-color: #fffafc;
+ }
+
+ .collection-item {
+     background: #fff;
+     padding: 15px;
+     border-radius: 12px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+     text-align: center;
+     transition: transform 0.3s;
+ }
+
+ .filter-buttons {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .filter-buttons button {
+     margin: 0 10px;
+     padding: 10px 20px;
+     border: none;
+     background-color: #b76e79;
+     color: white;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .filter-buttons button:hover {
+     background-color: #944d5b;
+ }
+
+ .collection-item:hover {
+     transform: translateY(-5px);
+ }
+
+ .collection-item img {
+     width: 100%;
+     max-width: 180px;
+     height: auto;
+     border-radius: 10px;
+ }
+
+ .collection-item h3 {
+     margin: 10px 0 5px;
+     color: #b76e79;
+     text-decoration: none;
+     color: inherit;
+     display: block;
+ }
+
+ .collection-item p {
+     color: #444;
+     font-weight: 500;
+     margin: 5px 0;
+     text-decoration: none;
+     color: inherit;
+     display: block;
+ }
+
+ footer {
+     background: #000;
+     color: #fff;
+     padding: 2rem;
+     text-align: center;
+     margin-top: 4rem;
+ }
+
+ footer p {
+     margin-bottom: 1rem;
+ }
+
+ footer a {
+     color: #d4af37;
+     text-decoration: none;
+ }

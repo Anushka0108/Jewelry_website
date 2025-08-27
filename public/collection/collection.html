@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Collection | Dreamstone</title>
+    <link rel="stylesheet" href="stylecollection.css">
+    <script type="module" src="collection.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dreamstone</h1>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/collection/collection.html">Collection</a>
+            <a href="/about/aboutus.html">About Us</a>
+            <a href="/contact/contact.html">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="collection-hero">
+        <h2>Our Signature Jewelry Collection</h2>
+        <p>Explore elegance, craftsmanship, and timeless design in every piece we create.</p>
+    </section>
+
+    <div class="filter-buttons">
+        <button onclick="filterItems('all')">All</button>
+        <button onclick="filterItems('necklace')">Necklaces/Pendants</button>
+        <button onclick="filterItems('ring')">Rings</button>
+        <button onclick="filterItems('earing')">Earrings</button>
+    </div>
+
+    <section class="collection-grid">
+        <!-- Necklaces -->
+        <div class="collection-item necklace">
+            <img src="../images/necklace.png" alt="Royal Pearl Necklace">
+            <h3>Royal Pearl Necklace</h3>
+            <p>₹ 5,999</p>
+        </div>
+        <div class="collection-item necklace">
+            <img src="../images/necklace2.png" alt="Diamond-Studded Pendant">
+            <h3>Diamond-Studded Pendant</h3>
+            <p>₹ 2,799</p>
+        </div>
+        <div class="collection-item necklace">
+            <img src="../images/necklace3.png" alt="Heart-Shaped Pendant">
+            <h3>Heart-Shaped Pendant</h3>
+            <p>₹ 2,999</p>
+        </div>
+        <div class="collection-item necklace">
+            <img src="../images/necklace4.png" alt="Diamond Necklace">
+            <h3>Diamond Necklace</h3>
+            <p>₹ 3,799</p>
+        </div>
+        <div class="collection-item necklace">
+            <img src="../images/necklace5.png" alt="Elegant Pendant">
+            <h3>Elegant Pendant</h3>
+            <p>₹ 2,599</p>
+        </div>
+
+        <!-- Rings -->
+        <div class="collection-item ring">
+            <img src="../images/ring.png" alt="Diamond Eternity Ring">
+            <h3>Diamond Eternity Ring</h3>
+            <p>₹ 8,499</p>
+        </div>
+        <div class="collection-item ring">
+            <img src="../images/set3ring.png" alt="Set of 3 Gold Rings">
+            <h3>Set of 3 Gold Rings</h3>
+            <p>₹ 7,999</p>
+        </div>
+        <div class="collection-item ring">
+            <img src="../images/couplegoldring.png" alt="Couple Gold Ring">
+            <h3>Couple Gold Ring</h3>
+            <p>₹ 2,999</p>
+        </div>
+        <div class="collection-item ring">
+            <img src="../images/flowerring.png" alt="Elegant Flower Ring">
+            <h3>Elegant Flower Ring</h3>
+            <p>₹ 2,699</p>
+        </div>
+        <div class="collection-item ring">
+            <img src="../images/ring2.png" alt="Elegant Platinum Ring">
+            <h3>Elegant Platinum Ring</h3>
+            <p>₹ 2,999</p>
+        </div>
+        <div class="collection-item ring">
+            <img src="../images/platinumring.png" alt="Platinum Ring">
+            <h3>Platinum Ring</h3>
+            <p>₹ 2,999</p>
+        </div>
+
+        <!-- Earrings -->
+        <div class="collection-item earing">
+            <img src="../images/earing.png" alt="Classic Diamond Earrings">
+            <h3>Classic Diamond Earrings</h3>
+            <p>₹ 4,499</p>
+        </div>
+        <div class="collection-item earing">
+            <img src="../images/diamondearpiece.png" alt="Simple Diamond Ear Piece">
+            <h3>Simple Diamond Ear Piece</h3>
+            <p>₹ 4,199</p>
+        </div>
+        <div class="collection-item earing">
+            <img src="../images/silverearing.png" alt="Simple Silver Earrings">
+            <h3>Simple Silver Earrings</h3>
+            <p>₹ 4,699</p>
+        </div>
+        <div class="collection-item earing">
+            <img src="../images/goldearings.png" alt="Simple Gold Earrings">
+            <h3>Simple Gold Earrings</h3>
+            <p>₹ 3,299</p>
+        </div>
+        <div class="collection-item earing">
+            <img src="../images/goldearing1.png" alt="Simple Gold Earrings">
+            <h3>Simple Gold Earrings</h3>
+            <p>₹ 2,199</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dreamstone Jewelry. All rights reserved.</p>
+        <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+
+    <script>
+        function filterItems(category) {
+            const items = document.querySelectorAll('.collection-item');
+            items.forEach(item => {
+                item.style.display = (category === 'all' || item.classList.contains(category)) ? 'block' : 'none';
+            });
+        }
+    </script>
+
+</body>
+
+</html>
