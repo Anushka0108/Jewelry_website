@@ -5,7 +5,7 @@ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/fir
 
 // Your Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBy0XeAvi0JqsCytYc5rpE9XYExT7UggEQ",
+    apiKey: "Apikey",
     authDomain: "dreamstone-3c8bc.firebaseapp.com",
     projectId: "dreamstone-3c8bc",
     storageBucket: "dreamstone-3c8bc.appspot.com",
